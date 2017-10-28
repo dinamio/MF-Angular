@@ -1,0 +1,16 @@
+<div style="text-align:center">
+    <input #name (keyup)="onInput($event, name.value, author.value)" placeholder="Input book name"/>
+    <input #author (keyup)="onInput($event, name.value, author.value)" placeholder="Input author name"/>
+    <br><br>
+    {{textField}}
+    <br><br>
+    <button [disabled]="buttonStatus == 'disabled'" (click)="addBook(name.value, author.value);
+      name.value=''; author.value=''">Clear text</button>
+</div>
+
+<h1>Books</h1>
+<ul>
+  <li *ngFor="let book of books">{{book.title}}   {{book.author}}
+    <button (click)="deleteBook(book)">Delete</button>
+  </li>
+</ul>
