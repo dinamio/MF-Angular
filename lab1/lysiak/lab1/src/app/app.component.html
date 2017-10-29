@@ -1,0 +1,10 @@
+<h1>
+  {{title}}
+</h1>
+
+<button [disabled]="isTextEmpty()" (click)="clearText()">Clear</button>
+
+<input class="text_input"
+       [(ngModel)]="text">
+
+<p>{{text}}</p>
