@@ -1,0 +1,6 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <app-book-form (onAdded)="onAdded($event)"></app-book-form>
+  <app-book *ngFor="let book of books; let idx = index" [book]="book"
+            [index]="idx + 1" (onDeleted)="onDeleted($event)"></app-book>
+</div>
