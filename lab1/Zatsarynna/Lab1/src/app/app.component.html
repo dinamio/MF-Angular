@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Programming task #1
+  </h1>
+
+  <input (keyup)="onKeyup(del)" [(ngModel)]="input"/>
+
+  <button #del style="margin-left:20px" (click) = "onClick(del)" disabled> DELETE </button>
+
+  <p> Current input : {{input}} </p>
+</div>
