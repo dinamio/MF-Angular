@@ -1,0 +1,8 @@
+<div>
+  <button style="background-color:green" (click)="startGame()"> START </button>
+  <button style="background-color:red" (click)="stopGame()"> STOP </button>
+  <div style="margin: 20px">
+    <app-odd [oddNumber] = "currentNumber" [isOdd] = "isOdd"></app-odd>
+    <app-even [evenNumber] = "currentNumber" [isOdd] = "isOdd"></app-even>
+  </div>
+</div>
