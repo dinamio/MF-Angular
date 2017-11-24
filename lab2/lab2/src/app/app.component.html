@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-game-control (addNumber)="addNumber($event)"></app-game-control>
+<hr>
+<table>
+  <tr>
+    <td>
+      <app-even *ngFor="let evenNumber of evenNumbers" [value]="evenNumber"></app-even>
+    </td>
+    <td>
+      <app-odd *ngFor="let oddNumber of oddNumbers" [value]="oddNumber"></app-odd>
+    </td>
+  </tr>
+</table>
+
+
+
