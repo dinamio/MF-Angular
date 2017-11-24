@@ -1,0 +1,10 @@
+<div style="text-align:center">
+  <app-game-control (indexEmitter)="onInterval($event)"></app-game-control>
+  <div class="row">
+    <div class="col-xs-12">
+      <br>
+      <app-odd *ngFor="let index of odds" [index]="index"></app-odd>
+      <app-even *ngFor="let index of evens" [index]="index"></app-even>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>{{title}}</h1>
+<h3>Смотрите, я даже добавила бутстрап)</h3>
+<div><label>id: </label>{{film.id}}</div>
+<div class="input-group">
+  <label>name: </label>
+  <input [(ngModel)]="film.name" placeholder="name">
+<button (click)="clearInput()" [disabled]="film.name === null" type="button" class="btn btn-success">Clear Input</button>
+</div>
+<h2>You're searching for {{film.name}}...</h2>
+<app-game-control (intEmmiter)="Interval($event)"></app-game-control>
+<app-odd *ngFor="let initialNumber of oddArray" [input_]="initialNumber"></app-odd>
+<app-even *ngFor="let initialNumber of oddArray" [input_]="initialNumber"></app-even>

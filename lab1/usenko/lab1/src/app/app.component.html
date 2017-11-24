@@ -1,0 +1,5 @@
+<div style="text-align:center">
+  <input type="text" [(ngModel)]="textField"/>
+  <p>{{textField}}</p>
+  <button [disabled]="textField === EMPTY_STRING" (click)="onClick()">Button</button>
+</div>

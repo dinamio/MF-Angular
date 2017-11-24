@@ -1,0 +1,14 @@
+<app-game-control (addNewNumder)="addToList($event)" ></app-game-control>
+<div>
+  <table>
+    <td>
+      <app-odd *ngFor="let oddNum of oddList" [num]="oddNum" style="color: #3c26ff"></app-odd>
+    </td>
+
+    <td>
+      <app-even *ngFor="let evenNum of evenList" [num]="evenNum" style="color: #f60f1a" ></app-even>
+    </td>
+
+  </table>
+</div>
+
