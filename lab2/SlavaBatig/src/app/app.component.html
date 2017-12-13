@@ -1,0 +1,6 @@
+<div style="text-align:center">
+  <app-game-control (indexEmitter)="onTime($event)"></app-game-control>
+      <br>
+      <app-odd *ngFor="let index of odds" [index]="index"></app-odd>
+      <app-even *ngFor="let index of evens" [index]="index"></app-even>
+</div>
