@@ -1,0 +1,27 @@
+p{
+  color: #008000;
+  font-family: "Garamond";
+  font-size: 150%;
+  font-weight: bold;
+}
+
+label{
+  color: #7d3c98;
+  font-family: "Garamond"; 
+  font-weight: bold;
+}
+
+input{
+  font-size: 100%;
+  font-family: #7d3c98;
+}
+
+button {
+	background-color: #76d7c4;
+	font-family: "Garamond"; 
+}
+
+h1 {
+	color: #008000;
+	font-family: "Garamond"; 
+}

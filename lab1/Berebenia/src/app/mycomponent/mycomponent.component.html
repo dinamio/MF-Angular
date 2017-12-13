@@ -1,0 +1,8 @@
+<div>
+	<h1> Welcome to {{title}} </h1>
+	<label> Input the text: </label>
+	<input type="text" [(ngModel)]="text" placeholder = "Enter the text please">
+	<p>This is your text: </p>
+	<p>{{text}}</p>
+	<button (click) ="deleteText()" [disabled] = "text === null"> Clean </button>
+</div>
