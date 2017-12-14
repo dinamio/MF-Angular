@@ -9,24 +9,21 @@ import { CounterService} from '../counter.service'
   styleUrls: ['./unactive-users.component.css']
 })
 export class UnactiveUsersComponent implements OnInit {
-
   users = [];
-  subscription: Subscription;
 
-  constructor(private userService:UserService, private counterService:CounterService) {
-    this.subscription = userService.unactiveAdded$.subscribe(
-     user => {this.users.push(user);});
-  };
+  constructor(private userService:UserService, private counterService:CounterService) {};
 
   ngOnInit() {
+    this.getUsers();
   }
 
   move(user:string) {
-    var index = this.users.indexOf(user, 0);
-    this.users.splice(index, 1);
-    this.counterService.moveUnactive(user);
-    this.userService.addActive(user);
+    this.userService.switch_sets(user, "Unactive");
   }
 
+  getUsers() : void {
+    this.userService.get_u_users()
+      .subscribe(users => this.users=users)
+  }
 
 }

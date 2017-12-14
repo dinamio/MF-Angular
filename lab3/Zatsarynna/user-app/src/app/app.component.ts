@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { UserService} from './user.service'
 import { CounterService} from './counter.service'
+import { Subscription }   from 'rxjs/Subscription';
 
 @Component({
   selector: 'app-root',
@@ -17,18 +18,13 @@ export class AppComponent {
 
   constructor(private userService:UserService, private counterService:CounterService) {
     counterService.activeMoved$.subscribe(user => {this.a_to_u+=1;});
-
     counterService.unactiveMoved$.subscribe(user => {this.u_to_a+=1;});
-}
+  }
 
   statusChanged(status) {
     this.cur_status = status;
   }
 
   newUser() {
-      if (this.cur_status == "Active")
-        this.userService.addActive(this.cur_name);
-      else
-        this.userService.addUnactive(this.cur_name);
-  }
+      this.userService.add_user(this.cur_name, this.cur_status);
 }

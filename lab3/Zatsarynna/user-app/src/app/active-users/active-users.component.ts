@@ -9,21 +9,20 @@ import { CounterService} from '../counter.service'
   styleUrls: ['./active-users.component.css'],
 })
 export class ActiveUsersComponent implements OnInit {
-  users = [];
-  subscription: Subscription;
+  users:string= [];
 
-  constructor(private userService:UserService, private counterService:CounterService) {
-    this.subscription = userService.activeAdded$.subscribe(
-     user => {this.users.push(user);});
-  };
+  constructor(private userService:UserService, private counterService:CounterService) { };
 
   ngOnInit() {
+    this.getUsers();
   }
 
   move(user:string) {
-    var index = this.users.indexOf(user, 0);
-    this.users.splice(index, 1);
-    this.counterService.moveActive(user);
-    this.userService.addUnactive(user);
+    this.userService.switch_sets(user, "Active");
+  }
+
+  getUsers() : void {
+    this.userService.get_a_users()
+      .subscribe(users => this.users=users)
   }
 }
