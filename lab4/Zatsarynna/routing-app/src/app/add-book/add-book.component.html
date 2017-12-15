@@ -1,0 +1,12 @@
+<table align=center style="text-align:center" cellpadding="10">
+  <tr>
+    <td>
+      <input #input placeholder="Book Title" [(ngModel)]="book_title" />
+      <button (click)="newBook(input, res)"> Add Book </button>
+    </td>
+  </tr>
+
+  <tr *ngFor="let message of messageService.messages">
+    <td style="text-weight:bold"> {{message}}  </td>
+  </tr>
+</table>
