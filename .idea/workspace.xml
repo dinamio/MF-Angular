@@ -1,7 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00751567-92f2-43e2-9e8f-76c099be3123" name="Default" comment="" />
+    <list default="true" id="00751567-92f2-43e2-9e8f-76c099be3123" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/.angular-cli.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/e2e/app.e2e-spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/e2e/app.po.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/e2e/tsconfig.e2e.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/package-lock.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/protractor.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/app.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/app.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/app.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/even/even.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/even/even.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/even/even.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/game.control/game.control.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/game.control/game.control.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/game.control/game.control.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/odd/odd.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/odd/odd.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/app/odd/odd.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/assets/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/environments/environment.prod.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/environments/environment.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/polyfills.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/test.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/tsconfig.app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/tsconfig.spec.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/src/typings.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/tsconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab2/tslint.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/.angular-cli.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/e2e/app.e2e-spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/e2e/app.po.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/e2e/tsconfig.e2e.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/package-lock.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/protractor.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/active.users/active.users.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/active.users/active.users.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/active.users/active.users.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/app.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/app.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/app.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/counter.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/unactive.user/unactive.users.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/unactive.user/unactive.users.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/unactive.user/unactive.users.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/user.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/app/user.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/assets/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/environments/environment.prod.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/environments/environment.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/polyfills.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/test.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/tsconfig.app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/tsconfig.spec.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/src/typings.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/tsconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab2/khachatryan/lab3/tslint.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,10 +93,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="app.po.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab2/khachatryan/lab2/e2e/app.po.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.po.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab2/khachatryan/lab3/e2e/app.po.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -25,11 +131,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/lab1/fomina/node_modules" />
+    <handled-path value="$PROJECT_DIR$/lab2/khachatryan/lab2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/lab2/khachatryan/lab3/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="229" />
+    <option name="y" value="71" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -49,60 +156,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="angul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angul" type="462c0819:PsiDirectoryNode" />
+              <item name="MF-Angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MF-Angular" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="angul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angul" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="MF-Angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MF-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="angul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angul" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="fomina" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angul" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="fomina" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angul" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="fomina" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angul" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="fomina" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="newcomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="MF-Angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MF-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="khachatryan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/lab2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/untitled7" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab2/khachatryan" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,6 +207,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="00751567-92f2-43e2-9e8f-76c099be3123" name="Default" comment="" />
@@ -128,24 +219,27 @@
       <updated>1508327647077</updated>
       <workItem from="1508327661768" duration="111000" />
       <workItem from="1508676717910" duration="749000" />
+      <workItem from="1513446012691" duration="479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="860000" />
+    <option name="totallyTimeSpent" value="1339000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="229" y="71" width="1346" height="688" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24888559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -157,34 +251,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/Reflect.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/Reflect.d.ts" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/Reflect.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-definemetadata.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-definemetadata.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getmetadatakeys.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getmetadatakeys.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-metadata.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-metadata.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getmetadata.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getmetadata.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getownmetadata.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getownmetadata.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getownmetadatakeys.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-getownmetadatakeys.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-hasownmetadata.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-hasownmetadata.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-decorate.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-decorate.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-deletemetadata.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-deletemetadata.js.map" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-hasmetadata.js" />
-        <option value="$PROJECT_DIR$/lab1/fomina/node_modules/reflect-metadata/test/reflect-hasmetadata.js.map" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -198,9 +264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -208,7 +271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -216,13 +278,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/fomina/src/app/newcomponent/newcomponent.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/khachatryan/lab2/e2e/app.po.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/khachatryan/lab3/e2e/app.po.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
