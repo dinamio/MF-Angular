@@ -1,0 +1,14 @@
+<h4> Your Library:</h4>
+<table align="center" border="1" style="border-collapse:collapse" cellpadding="5" width="500">
+  <tr>
+    <td> ID </td>
+    <td> Title </td>
+    <td> Click to delete </td>
+  </tr>
+
+  <tr *ngFor="let book of books">
+    <td> {{book.id}} </td>
+    <td> <a routerLink="/books/:{{book.id}}"> {{book.title}} </a> </td>
+    <td> <button style="margin:5px" (click)="remove(book)"> Move </button> </td>
+  </tr>
+</table>
