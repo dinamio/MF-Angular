@@ -1,0 +1,35 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  margin-left: 10%;
+  flex: 1 1 auto;
+}
+.example-space-input{
+  border-top: hidden;
+  border-left: hidden;
+  flex: 1 1 auto;
+}
+.example-space-input:focus{
+  outline: none;
+}
+.header-subject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.dropDownSubject{
+  right: 1%;
+  display: flex;
+  flex-direction: row;
+}
+.subject-add {
+  left: 0;
+}
+.subject-add-panel {
+  width: 30%;
+  left: 0;
+}
+

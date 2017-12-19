@@ -1,0 +1,43 @@
+<div class="mainPanel">
+
+  <mat-list class="panel-class">
+    <mat-card class="item-class" *ngFor="let class of classes" (click)="classClick(class)">
+      <mat-card-title>   {{ class.getName() }}</mat-card-title>
+    </mat-card>
+
+    <mat-card class="item-class" (click)="openPanelClass()" *ngIf="!addPanelClass">
+     <span>
+       <mat-icon>add</mat-icon>
+     </span>
+    </mat-card>
+
+    <mat-card class="add-class" *ngIf="addPanelClass">
+      <mat-form-field ngNoForm>
+        <input matInput placeholder="Input" #class>
+      </mat-form-field>
+      <span (click)="addClass(class.value)"><mat-icon>done</mat-icon></span>
+      <span (click)="openPanelClass()"><mat-icon>clear</mat-icon></span>
+    </mat-card>
+  </mat-list>
+
+  <div class="panelInfo">
+    <div *ngIf="!getClassClick()"> please, select class</div>
+
+    <app-subject *ngIf="getClassClick()"
+                 [currentClass]="getClassClick()"
+                 (selectSubject)="setSubject($event)"></app-subject>
+
+
+    <app-item-class *ngIf="getClassClick() && getSubject()"
+                    [classCurrent]="getClassClick()"
+                    [subject]="getSubject()">
+
+    </app-item-class>
+    <button *ngIf="getClassClick() && getSubject()" mat-fab color="primary"
+            (click)="openPopUp()"
+            class="buttonLesson"
+    >
+      <mat-icon>school</mat-icon>
+    </button>
+  </div>
+</div>

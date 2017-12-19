@@ -1,0 +1,58 @@
+
+<!--<span class="warnAddSubjet">{{classCurrent.getName()}}</span>-->
+<table class="infoClass">
+
+  <tr *ngIf="classCurrent">
+    <td>Students</td>
+    <td *ngFor="let lesson of lessons">{{lesson.getDateLesson()|date }}</td>
+  </tr>
+
+  <tr *ngFor="let student of classCurrent.getStudents()">
+    <td>{{student.getName()}}</td>
+    <td *ngFor="let lesson of lessons  ">
+      <div class="mark"
+           *ngIf="itemTableL !== lesson.getId() || itemTableS !== student.getId()"
+           (click)="clickByTable(lesson.getId(), student.getId())">
+        {{getMark(student.getId(), lesson.getId()) !== -1 ? getMark(student.getId(), lesson.getId()) : ''}}
+      </div>
+      <span *ngIf="itemTableL === lesson.getId() && itemTableS === student.getId()">
+
+        <mat-form-field class="example-spacer" ngNoForm>
+          <input matInput placeholder="Enter mark" #mark type="number">
+        </mat-form-field>
+
+        <button class="example-icon" mat-icon-button color="accent" (click)="saveMark(mark.value, student.getId(), lesson.getId())">
+          <mat-icon>done</mat-icon>
+        </button>
+        <!--<span class="icAdd" (click)="saveMark(mark.value, student, lesson.getTicket())"><mat-icon>done</mat-icon></span>-->
+        <button class="example-icon" mat-icon-button color="accent" (click)="clickByTable(-1, '') ">
+          <mat-icon>clear</mat-icon>
+        </button>
+      </span>
+
+    </td>
+  </tr>
+
+  <button mat-button *ngIf="!addStudent" (click)="clickByAddstydent()">
+    Add Student
+  </button>
+  <span *ngIf="addStudent">
+      <form class="example-form" ngNoForm>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Enter student's name" #studentName>
+        </mat-form-field>
+      </form>
+
+        <button class="icAdd"
+                mat-button
+                (click)="addStydentOnClass(studentName.value)">
+          <mat-icon aria-label="Example icon-button with a heart icon">done</mat-icon>
+        </button>
+
+        <button class="icAdd"
+                mat-button
+                (click)="clickByAddstydent()">
+          <mat-icon aria-label="Example icon-button with a heart icon">clear</mat-icon>
+        </button>
+    </span>
+</table>
