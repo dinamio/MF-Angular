@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <body>
+  <input [(ngModel)]="text" placeholder="Enter some text bruh">
+  <button [disabled] = "ifTextEmpty()" (click) = "clearText()"  > clear </button>
+  </body>
+
+  <p>{{text}}</p>
+</div>
