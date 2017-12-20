@@ -1,0 +1,31 @@
+<form (ngSubmit)="onSubmit()" novalidate [formGroup]="BookForm">
+  <table align=center style="text-align:center" cellpadding="10">
+    <tr>
+      <td>
+        <input  placeholder="Title"
+                id ="title"
+                formControlName ="bookTitle"
+                class="form-control"/>
+
+        <button
+          class = "btn btn-primary"
+          type="submit"
+          [disabled]="BookForm.pristine || BookForm.invalid"> Add </button>
+
+        <p style='color:darkred' *ngIf="BookForm.get('bookTitle').hasError('ForbiddenTitle')">
+          Dont starts from capitals
+        </p>
+
+        <p style='color:darkred' *ngIf="BookForm.get('bookTitle').hasError('required')">
+          Empty field
+        </p>
+
+
+      </td>
+    </tr>
+
+    <tr *ngFor="let message of messageService.messages">
+      <td style="text-weight:bold"> {{message}}  </td>
+    </tr>
+  </table>
+</form>
