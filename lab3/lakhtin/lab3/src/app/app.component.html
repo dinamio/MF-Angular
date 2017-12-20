@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+Создание пользователя:
+<input type="text" [(ngModel)]="currentUser">
+<select [(ngModel)]="userStatus">
+    <option [ngValue]="'ACTIVE'">Active</option>
+    <option [ngValue]="'INACTIVE'">Inactive</option>
+  </select>
+<button (click)="createUser()">Create</button>
+<br><br><br>
+<div class="row">
+  <div class="column">
+    Счетчик актив в писсив
+    <br> {{activeToInactive}}
+  </div>
+  <div class="column">
+    Счетчик пассив в актив
+    <br> {{inactiveToActive}}
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <app-active-users></app-active-users>
+  </div>
+  <div class="column">
+    <app-unactive-users></app-unactive-users>
+  </div>
+</div>

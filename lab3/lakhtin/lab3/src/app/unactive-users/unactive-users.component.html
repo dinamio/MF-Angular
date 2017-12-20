@@ -1,0 +1,5 @@
+<ul>
+  <div *ngIf="users.length > 0">
+      <li *ngFor="let user of users">{{user.name}} <button (click)="setToActive(user)">Set to active</button></li>      
+  </div>
+</ul>
