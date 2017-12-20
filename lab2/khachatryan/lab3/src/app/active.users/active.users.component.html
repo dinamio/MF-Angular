@@ -1,0 +1,9 @@
+<span>Active</span>
+<table>
+  <tr>
+    <th>user</th><th>Active</th><th>Unactive</th><th>change</th>
+  </tr>
+  <tr *ngFor="let user of userService.getActiveUsers()">
+    <td>{{user.getName()}}</td><td>{{user.getActive()}}</td><td>{{user.getUnactive()}}</td><button (click)="change(user)">Unactive</button>
+  </tr>
+</table>

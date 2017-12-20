@@ -1,0 +1,7 @@
+.info{
+  display: flex;
+  flex-direction: row;
+}
+.item{
+   margin-left: 50px;
+}
