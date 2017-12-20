@@ -1,0 +1,28 @@
+
+<form ngNoForm onsubmit="return false;">
+  <input #nameUser
+         autofocus
+         required
+  >
+  <p>Please select:</p>
+  <div>
+    <input type="radio" id="contactChoice1"
+           name="contact" value="active"
+           (click)="setStatus(true)">
+    <label for="contactChoice1">active</label>
+
+    <input type="radio" id="contactChoice2"
+           name="contact" value="unactive" (click)="setStatus(false)">
+    <label for="contactChoice2">unactive</label>
+
+  </div>
+  <div>
+    <button  (click)="addUser(nameUser.value )" >add</button>
+  </div>
+</form>
+
+
+<div class="info">
+  <app-unactive class="item"></app-unactive>
+  <app-active class="item"></app-active>
+</div>

@@ -1,0 +1,5 @@
+
+<button (click)="start()">Start</button>
+<button (click)="stop()">Stop</button>
+<app-even [couter]="coun" *ngIf="checkedCounter()&& coun"></app-even>
+<app-odd   [couter]="coun" *ngIf="!checkedCounter() && coun"></app-odd>
