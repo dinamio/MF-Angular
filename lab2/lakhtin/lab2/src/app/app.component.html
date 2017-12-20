@@ -1,0 +1,5 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<app-game-control (listEmitter)="currentNumb($event)"></app-game-control>
+<app-odd *ngFor="let odd of oddNumbers" [n]="odd"></app-odd>
+<app-even *ngFor="let even of evenNumbers" [n]="even"></app-even>
