@@ -1,0 +1,27 @@
+<form ngNoForm onsubmit="return false;" style="display: inline-block" >
+  <span> <input #nameUser
+         autofocus
+         required
+  ></span>
+  <span> <h4>Please select: </h4> </span>
+  <span>
+    <input type="radio" id="contactChoice1"
+           name="contact" value="active"
+           (click)="setStatus(true)">
+    <label for="contactChoice1">active</label>
+
+    <input type="radio" id="contactChoice2"
+           name="contact" value="unactive" (click)="setStatus(false)">
+    <label for="contactChoice2">unactive</label>
+
+  </span>
+  <span>
+    <button  (click)="addUser(nameUser.value )" >add</button>
+  </span>
+</form>
+
+
+<div class="info">
+  <app-unactive class="item"></app-unactive>
+  <app-active class="item"></app-active>
+</div>
