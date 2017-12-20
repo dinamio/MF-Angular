@@ -1,0 +1,11 @@
+p{
+  color: grey;
+}
+body{
+  background-color: #80ced6;
+}
+button{
+  background-color: white;
+  border: none;
+  border-radius: 10%;
+}
