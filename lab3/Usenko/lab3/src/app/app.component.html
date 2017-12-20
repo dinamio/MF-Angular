@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style='text-align: center'>
+  Create user:
+  <input type="text" [(ngModel)]="currentUser">
+  <select [(ngModel)]="userStatus">
+    <option [ngValue]="'ACTIVE'">Active</option>
+    <option [ngValue]="'INACTIVE'">Inactive</option>
+  </select>
+  <button (click)="createUser()">Create</button>
+</div>
+<div class="row">
+    <div class="column">
+      active to inactive moves
+      <br>
+      {{activeToInactive}}
+    </div>
+    <div class="column">
+      inactive to active moves
+      <br>
+      {{inactiveToActive}}
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <app-active-users></app-active-users>
+  </div>
+  <div class="column">
+    <app-unactive-users></app-unactive-users>
+  </div>
+</div>
