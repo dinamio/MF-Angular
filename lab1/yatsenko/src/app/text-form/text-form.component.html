@@ -1,0 +1,6 @@
+
+  <input style = "background-color:lightgreen" [(ngModel)] = "text" placeholder = "Enter some text here">
+  <p>Your text:</p>
+  <p>{{text}}</p>
+  <button style="background-color:lightblue" (click)="delete()" 
+  [disabled] = "text == '' "> Delete </button>
