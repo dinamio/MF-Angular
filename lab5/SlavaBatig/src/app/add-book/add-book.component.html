@@ -1,0 +1,33 @@
+
+
+<div align="center">
+  <form [formGroup]="bookForm" (submit)="createBook()" novalidate>
+    Title:
+    <input type="text" placeholder="Enter the title" formControlName="title"><br>
+    <small *ngIf="bookForm.controls.title.dirty && bookForm.controls.title.errors?.required">
+      Title is required
+    </small>
+    <br>
+    <small *ngIf="bookForm.controls.title.dirty && bookForm.controls.title.errors?.pattern">
+      Title should start from capital letter
+    </small>
+    <br>
+    Year:
+    <input type="text" placeholder="Enter the year" formControlName="year"><br>
+    <small *ngIf="bookForm.controls.year.dirty && bookForm.controls.year.errors?.required">
+      Year is required
+    </small>
+    <br>
+    <small *ngIf="bookForm.controls.year.dirty && bookForm.controls.year.errors?.pattern">
+      Year should contain only digits
+    </small>
+    <br>
+    Author:
+    <input type="text" placeholder="Enter the author" formControlName="author"><br>
+    <small *ngIf="bookForm.controls.author.dirty && bookForm.controls.author.errors?.required">
+      Author is required
+    </small>
+    <br>
+    <button [disabled]="(bookForm.untouched) || (bookForm.touched && bookForm.invalid)">Create a book</button>
+  </form>
+</div>
