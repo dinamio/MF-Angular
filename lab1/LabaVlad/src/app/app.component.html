@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+
+<div><label>Input: </label>
+<input type="text" [(ngModel)]="text" placeholder="Enter the text">
+<p>Text: {{text}}</p>
+  <button (click) = "clear()" [disabled]="text === ''"> Clean</button></div>
+

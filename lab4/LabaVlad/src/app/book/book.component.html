@@ -1,0 +1,8 @@
+<div *ngIf="book">
+  <h2>{{book.author}}, {{book.title}}</h2>
+  <h3>{{book.year}}</h3>
+  
+  <button (click)="deleteBook()">Delete book</button>
+</div>
+
+<h2 *ngIf="!book">404 - No book found for given id</h2>
