@@ -1,0 +1,51 @@
+<!--The content below is only a placeholder and can be replaced.-->
+  <div style="text-align:center">
+
+<table align=left style="text-align:center" cellpadding="10">
+  <tr>
+    <td> <input placeholder="Name" [(ngModel)]="cur_name" /> </td>
+
+    <td>
+      <select (change)="statusChanged($event.target.value)">
+        <option> Active </option>
+        <option> Not Active </option>
+      </select>
+    </td>
+
+    <td>
+      <button (click)="newUser()"> ADD </button>
+    </td>
+  </tr>
+</table>
+
+<p></p>
+<table align=left border="2" text-align:center cellpadding="10" style="margin-bottom:50px;">
+  <tr>
+    <td> ACTIVE to INACTIVE </td>
+    <td> INACTIVE to ACTIVE </td>
+  </tr>
+
+  <tr>
+    <td> {{a_to_u}} </td>
+    <td> {{u_to_a}} </td>
+  </tr>
+</table>
+
+<table width="700" align=lest border="2" style="border-collapse:collapse, text-align:center" cellpadding="10">
+  <tr>
+    <td> ACTIVE USERS</td>
+    <td> INACTIVE USERS</td>
+  </tr>
+
+  <tr>
+    <td>
+      <app-active-users></app-active-users>
+    </td>
+
+    <td>
+      <app-unactive-users></app-unactive-users>
+    </td>
+  </tr>
+</table>
+
+

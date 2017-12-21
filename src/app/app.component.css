@@ -1,0 +1,15 @@
+table {
+	border-collapse:inherit;
+    color: #204a87;
+    border-spacing:5px 10px;
+    margin-right: 70px;
+    border-color:1px #000000;
+    border-radius: 5px;
+}
+button {
+	background-color: #4caf50;
+	color: #204a87;
+	width:80px;
+	height:30px;
+	border-radius: 8px;
+}
