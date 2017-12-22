@@ -1,0 +1,6 @@
+<app-game-control  (addNewNumder)="addToList($event)"></app-game-control>
+<div>
+  <app-odd *ngFor="let oddNum of oddList" [num]="oddNum" style="color: royalblue"></app-odd>
+  <app-even *ngFor="let evenNum of evenList" [num]="evenNum" style="color: hotpink" ></app-even>
+</div>
+
