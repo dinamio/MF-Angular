@@ -1,0 +1,13 @@
+<div id="container">
+  <nav>
+    <a routerLink="/book-create">Create new book</a>
+  </nav>
+  <div id="active-books">
+    <app-book *ngFor="let book of activeBooks; let idx = index" [book]="book"
+              [index]="idx + 1" (click)="showDetails(book)"></app-book>
+  </div>
+  <div id="inactive-books">
+    <app-book *ngFor="let book of inactiveBooks; let idx = index" [book]="book"
+              [index]="idx + 1" (click)="showDetails(book)"></app-book>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div style="text-align:center">
+  <app-book-form></app-book-form>
+  <div id="container">
+    <div id="active-books">
+      <app-book *ngFor="let book of activeBooks; let idx = index" [book]="book"
+                [index]="idx + 1"></app-book>
+    </div>
+    <div id="inactive-books">
+      <app-book *ngFor="let book of inactiveBooks; let idx = index" [book]="book"
+                [index]="idx + 1"></app-book>
+    </div>
+  </div>
+</div>

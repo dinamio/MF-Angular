@@ -1,0 +1,9 @@
+.content {
+  width: 15em;
+  outline: 2px solid black;
+  margin: 0 auto;
+}
+
+.index {
+  float: left;
+}

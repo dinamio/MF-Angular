@@ -1,0 +1,11 @@
+<div>
+  <input [(ngModel)]="book.title" placeholder="Enter title">
+  <br>
+  <input [(ngModel)]="book.author" placeholder="Enter author">
+  <br>
+  <input [(ngModel)]="book.isActive" type="checkbox">
+  <label>Is actice?</label>
+  <br>
+  <button (click)="addClicked()" [disabled]="isAddDisabled()">Add</button>
+</div>
+

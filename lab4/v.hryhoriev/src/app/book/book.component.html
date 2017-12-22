@@ -1,0 +1,11 @@
+<div class="content">
+  <div class="index">{{index}}</div>
+  <div>
+    <p>Book's title: {{book.title}}</p>
+    <p>Book's author: {{book.author}}</p>
+    <p>Is active? {{book.isActive}} </p>
+    <p *ngIf="isDetails">How much does this book change status? {{userService.counterService.counterFor(book)}}</p>
+  </div>
+  <button *ngIf="isDetails" (click)="movedToTapped()">{{buttonTitle()}}</button>
+  <button *ngIf="isDetails" (click)="deleteBook()">Delete</button>
+</div>
