@@ -1,0 +1,46 @@
+<div style="text-align:center">
+  Laba Vlad, MF-42
+  <br>
+
+<input style="text-align:center" placeholder="Name" [(ngModel)]="currentUserName" />
+<br>
+<select style="text-align:center" (change)="getActivity($event.target.value)">
+  <option value = "" disabled selected> Select activity </option>
+  <option> Active </option>
+  <option> Unactive </option>
+  </select>
+  <br>
+<button style="text-align:center" (click)="addUser()"> Add </button>
+
+ <p></p>
+
+  <table style="text-align:center" border="1">
+    <tr>
+      <td> From active to Unactive </td>
+      <td> From unactive to Active </td>
+    </tr>
+
+    <tr>
+      <td> {{activeToUnactive}} </td>
+      <td> {{unactiveToActive}} </td>
+    </tr>
+  </table>
+
+<p></p>
+
+  <table style="text-align:center" border="1">
+    <tr>
+      <td> Active users</td>
+      <td> Unactive users </td>
+    </tr>
+
+    <tr>
+      <td>
+        <app-active-users></app-active-users>
+      </td>
+      <td>
+        <app-unactive-users></app-unactive-users>
+      </td>
+    </tr>
+  </table>
+</div>

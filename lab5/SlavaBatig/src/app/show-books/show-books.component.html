@@ -1,0 +1,18 @@
+<table align="center" border="1" width="500">
+  <tr>
+    <td> ID </td>
+    <td> Title </td>
+    <td> Author</td>
+    <td>Year</td>
+  </tr>
+
+  <tr *ngFor="let book of books">
+    <td>
+    <a [routerLink]="'/books/'+book.id">{{book.id}}</a></td>
+    <td> {{book.title}} <button (click)="remove(book)">rmv</button> </td>
+    <td>{{book.author}}</td>
+    <td>{{book.year}}</td>
+  </tr>
+
+</table>
+
